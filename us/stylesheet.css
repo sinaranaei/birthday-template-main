@@ -14,7 +14,6 @@ body {
 }
 .peach {
     background: url('../assets/hello.webp') repeat;
-    backdrop-filter: blur(5px);
 }
 .peach-after {
 	-webkit-animation:peach_alive linear 8s infinite;
