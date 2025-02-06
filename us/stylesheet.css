@@ -1278,14 +1278,16 @@ audio {
 	display: none;
 }
 .message p {
-	background-color: #ffefd598;
-	font-family: 'Signika', sans-serif;
-	font-size: 30px;
-	text-transform: uppercase;
-	color: #000;
-	text-shadow: 4px 4px 4px #FFF;
-	display: none;
-	font-weight: bold;
+    font-family: 'Signika', sans-serif;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #000;
+    text-shadow: 
+        0 0 10px #FFF,  /* Soft glow */
+        0 0 20px #FFF,  /* Medium glow */
+        0 0 30px #FFF;  /* Stronger glow */
+    display: none;
+    font-weight: bold;
 }
 
 .btn-primary {
